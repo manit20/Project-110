@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <center>
+        <h3>Case Study: Which is more accurate? Azure or Mobilenet?
+            <img src="case-study.png">
+        </h3>
+      </center>
+      <div class="text_images_and_results">
+        <p>Images-</p>
+        <ol>
+            <li><img class="test_images" src="shoes.jpeg"></li>
+            <br>
+            <li><img class="test_images" src="ring.jpg"></li>
+            <br>
+            <li><img class="test_images" src="robot.jpg"></li>
+            <br>
+            <li><img class="test_images" src="bottle.jpg"></li>
+            <br>
+            <li><img class="test_images" src="box.jpg"></li>
+            <br>
+            <li><img class="test_images" src="key.jpg"></li>
+            <br>
+            <li><img class="test_images" src="medicine.jpg"></li>
+            <br>
+            <li><img class="test_images" src="mouse.jpg"></li>
+            <br>
+            <li><img class="test_images" src="laptop.jpg"></li>
+            <br>
+            <li><img class="test_images" src="earphones.png"></li>
+        </ol>
+        <center>
+            <h3>Output on <b class="websites">Microsoft Azure</b>- <span class="result"></span></h3>
+            <h3>Output on <b class="websites">Mobilenet Model</b>- <span class="result"></span></h3>
+            <br>
+            <br>
+            <div class="btn btn-warning accurate">
+              <h4>Result - </h4>
+              <hr>
+              <h4 style="color: purple;"></h4>
+            </div>
+        </center>    
+      </div>
+  </body>
+</html>
